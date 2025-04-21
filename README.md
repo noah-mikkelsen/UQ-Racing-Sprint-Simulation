@@ -1,9 +1,9 @@
 # UQ Racing Straight Line Acceleration Simulation
-This project presents a model and analysis in MATLAB for the Formula SAE 75m straight-line acceleration event, based on UQ Racing's 2024 and proposed 2025 cars. 
+This project presents a theoretical model and analysis in MATLAB for the Formula SAE 75m straight-line acceleration event, based on UQ Racing's 2024 and proposed 2025 cars. 
 
 # Purpose
-To produce an accurate model of sensitive vehicle parameters to determine optimisations for this event and benchmark performance of 2025 AWD vehicle with 2024 RWD design.
-Specifically, the effect of weight bias on finishing time for both year's cars was analysed, revealing key areas of improvement.
+
+To develop an accurate model of sensitive vehicle parameters influencing acceleration performance, with the aim of identifying optimisations for this event and benchmarking the 2025 AWD vehicle against the 2024 RWD design.
 
 # Findings
 As seen in the plots within the folder visuals, the 2025 car's FWD power is limited by static friction limits on the front tyres at its current weight bias (0.53 from the front axle), meaning power application must initially be limited to avoid wheelspin (motor power available > traction limit) - see Figure 1. This is due to longitudinal load transfer (LLT) which is a function of acceleration. The large initial acceleration shifts much of the load on the front tyres to the rear tyres, reducing front tyre traction to below the motor torque threshold. 
